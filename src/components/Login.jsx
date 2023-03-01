@@ -14,6 +14,7 @@ export default function Login() {
         "user-read-playback-state",
         "user-read-currently-playing",
         "user-read-recently-played",
+         "user-top-read",
         
         ];
         window.location.href = `${api_uri}?client_id=${clientId}&redirect_uri=${redirectUrl}&scope=${scope.join(
